@@ -11,5 +11,5 @@ COPY app.py .
 RUN useradd -m appuser
 USER appuser
 
-EXPOSE 8080
+EXPOSE 8000
 CMD ["python", "app.py"]
